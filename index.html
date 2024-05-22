@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Ristorante di Hugo</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  </head>
+  <body>
+    <header>
+        <div class="insideHeader">
+            <h1 ID="titolHeader">IL RISTORANTE DI HUGO</h1>
+            <div class="botons">
+                <button>Qui som</button>
+                <hr class="lineaBotons">
+                <button>Carta</button>
+                <hr class="lineaBotons">
+                <button herf="link">Galeria d'imatges</button>
+            </div>
+        </div>
+    </header>
+    <div>
+      <div class="portada">
+        <img id="yo" src="img/Yo.png" alt="Imagen de nuestro chef">
+        <picture>
+          <source media="(max-width:576px)" class="fondoPortada" srcset="img/Portada576.jpg" alt="Imagen del restaurante por dentro">
+          <source media="(max-width:768px)" class="fondoPortada" srcset="img/Portada768.jpg" alt="Imagen del restaurante por dentro">
+          <img class="fondoPortada" src="img/Portada.jpg" alt="Imagen del restaurante por dentro">
+        </picture>
+        <div id="titolPortada">
+          <h1>IL RISTORANTE DI HUGO</h1>
+          <p>DIRECTE DEL MERCAT A LA TAULA</p>
+        </div>
+      </div>
+    </div>
+      
+    <!--QUI SOM-->
+    <div class="separacio"></div>
+    <main id="mainPrincipal">
+      <section class="sectionMain">
+        <h2 id="flip" class="sectionQuiSom">
+          <i class="material-icons">arrow_drop_up</i>
+          QUI SOM
+          <i class="material-icons">arrow_drop_up</i>
+        </h2>
+        <div id="panel">
+          <div class="container_quiSom1">
+            <div id="img1_quiSom"><img class="img_quiSom" class="img_quiSom" src="img/QuiSom1.jpg" alt="Restaurant per dins"></div>
+            <div class="text_quiSom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tincidunt velit. Donec ultrices porttitor diam, a molestie augue suscipit quis. Etiam accumsan odio ex. Etiam id erat non augue fringilla fringilla nec sed nisi. Phasellus nec sem sit amet nisl auctor aliquam ac vitae erat. Aliquam rhoncus mattis urna eu efficitur. Phasellus aliquam pharetra augue, at pharetra libero lobortis non. Duis fringilla lorem lacus, in tempor arcu pretium et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer est lacus, fermentum vitae volutpat eu, scelerisque id lectus.</div>
+          </div>
+          <div class="container_quiSom2">
+            <div id="img2_quiSom"><img class="img_quiSom" src="img/QuiSom2.jpg" alt="Alguns plats del nistre restaurant"></div>
+            <div class="text_quiSom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tincidunt velit. Donec ultrices porttitor diam, a molestie augue suscipit quis. Etiam accumsan odio ex. Etiam id erat non augue fringilla fringilla nec sed nisi. Phasellus nec sem sit amet nisl auctor aliquam ac vitae erat. Aliquam rhoncus mattis urna eu efficitur. Phasellus aliquam pharetra augue, at pharetra libero lobortis non. Duis fringilla lorem lacus, in tempor arcu pretium et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer est lacus, fermentum vitae volutpat eu, scelerisque id lectus.</div>
+          </div>
+        </div>
+      </section>
+
+      <!--CARTA-->
+      <div class="separacio"></div>
+      <section class="sectionMain">
+        <h2>CARTA</h2>
+        <div class="insideCarta">
+          <div class="carta_titols" id="carta_h2"><h3>Experiències</h3></div>
+          <div class="carta_titols" id="carta_h3_1"><h3>1</h3></div>
+          <div id="carta_text1">
+            <h4 class="titol_petit_Carta">Passeig per Italia</h4>
+            <p class="text_carta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tincidunt velit. Donec ultrices porttitor diam, a molestie augue suscipit quis. Etiam accumsan odio ex. Etiam id erat non augue fringilla fringilla nec sed nisi. Phasellus nec sem sit amet nisl auctor aliquam ac vitae erat. Aliquam rhoncus mattis urna eu efficitur. Phasellus aliquam pharetra augue, at pharetra libero lobortis non. Duis fringilla lorem lacus, in tempor arcu pretium et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer est lacus, fermentum vitae volutpat eu, scelerisque id lectus.</p>
+          </div>
+          <div class="containerCarta" id="imgCarta1">
+            <img class="img_carta" src="img/Pasta.webp" alt="Plat de pasta">
+            <div class="overlay">Pasta</div>
+          </div>
+          <div class="containerCarta" id="imgCarta2">
+            <img class="img_carta" src="img/Tiramisu.jpg" alt="Tiramisu">
+            <div class="overlay">Tiramisu</div>
+          </div>
+          <div class="carta_titols" id="carta_h3_2"><h3>2</h3></div>
+          <div id="carta_text2">
+            <h4 class="titol_petit_Carta">El menjar de l'Àvia</h4>
+            <p class="text_carta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tincidunt velit. Donec ultrices porttitor diam, a molestie augue suscipit quis. Etiam accumsan odio ex. Etiam id erat non augue fringilla fringilla nec sed nisi. Phasellus nec sem sit amet nisl auctor aliquam ac vitae erat. Aliquam rhoncus mattis urna eu efficitur. Phasellus aliquam pharetra augue, at pharetra libero lobortis non. Duis fringilla lorem lacus, in tempor arcu pretium et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer est lacus, fermentum vitae volutpat eu, scelerisque id lectus.</p>
+          </div>
+          <div class="containerCarta" id="imgCarta3">
+            <img class="img_carta" src="img/Croquetes.png" alt="Plat de croquetes">
+            <div class="overlay">Croquetes</div>
+          </div>
+          <div class="containerCarta" id="imgCarta4">
+            <img class="img_carta" src="img/Cocido.jpg" alt="Plat de cocido">
+            <div class="overlay">Cocido</div>
+          </div>
+        </div>
+      </section>
+
+      <!--GALERIA-->
+      <div class="separacio"></div>
+      <section class="sectionMain">
+        <h2>GALERIA D'IMATGES</h2>
+        <div id="galeria">
+          <div class="img_galeria"><img id="img_enfosquida" src="img/QuiSom2.jpg" alt="Alguns dels nostres plats"></div>
+          <div class="img_galeria"><img src="img/QuiSom2.jpg" alt="Alguns dels nostres plats"></div>
+          <div class="img_galeria"><img src="img/QuiSom2.jpg" alt="Alguns dels nostres plats"></div>
+          <div class="img_galeria"><img id="img_enfosquida" src="img/QuiSom2.jpg" alt="Alguns dels nostres plats"></div>
+          <div class="img_galeria"><img id="img_enfosquida" src="img/QuiSom1.jpg" alt="Interior Restaurant"></div>
+          <div class="img_galeria"><img src="img/QuiSom1.jpg" alt="Interior Restaurant"></div>
+          <div class="img_galeria"><img src="img/QuiSom1.jpg" alt="Interior Restaurant"></div>
+          <div class="img_galeria"><img id="img_enfosquida" src="img/QuiSom1.jpg" alt="Interior Restaurant"></div>
+        </div>
+      </section>
+    </main>
+
+    <!--VIDEO-->
+    <div class="separacio"></div>
+    <div class="video-container">
+      <video id="video" muted>
+        <source id="paella" src="video/Paella.mp4" type="video/mp4">
+        El teu navegador no soporta video
+      </video>
+      <div class="btn_video">
+        <span id="muteButton" class="material-icons" onclick="mute_unmute()">volume_off</span>
+        <span id="playButton" class="material-icons" onclick="play_pause()">play_circle</span>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="separacio"></div>
+    <footer>
+      <div id="footer_esquerra">
+        <i class="material-icons" id="iconsFooter">mail</i>
+        <div>info@ilristorantedihugo.com</div>
+        <i class="material-icons" id="iconsFooter">phone</i>
+        <div>911 012 58 77</div>
+      </div>
+      <div id="footer_dreta">Il ristorante di Hugo</div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
